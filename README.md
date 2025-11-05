@@ -116,6 +116,22 @@
 
 ---
 
+## Azure Deployment (Terraform)
+
+The project supports end-to-end Azure deployment using the Terraform config in terraform/azure.
+
+### Provisioned Resources
+
+- **Azure Container Registry (ACR)** – stores Docker images
+
+- **Azure Container Apps Environment** – managed hosting
+
+- **Azure Container App** – runs the container via HTTPS
+
+- **Log Analytics Workspace** – collects logs and metrics
+
+---
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
